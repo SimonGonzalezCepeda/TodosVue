@@ -11,32 +11,19 @@
     <md-sidenav class="md-left" ref="leftSidenav" @open="open('Left')" @close="close('Left')">
       <md-toolbar class="md-large">
         <div class="md-toolbar-container">
-          <h3 class="md-title">Sidenav content</h3>
+          <h3 class="md-title">Menu</h3>
         </div>
       </md-toolbar>
 
       <md-list>
-        <md-subheader>Navigation</md-subheader>
 
         <md-list-item>
-          <md-icon>move_to_inbox</md-icon> <span>Inbox</span>
+          <md-icon>move_to_inbox</md-icon> <span>Todos</span>
         </md-list-item>
 
         <md-list-item>
-          <md-icon>send</md-icon> <span>Outbox</span>
+          <md-icon>send</md-icon> <span>Tokens</span>
         </md-list-item>
-
-        <md-list-item>
-          <md-icon>delete</md-icon> <span>Trash</span>
-        </md-list-item>
-
-        <md-list-item>
-          <md-icon>error</md-icon> <span>Spam</span>
-
-          <md-divider class="md-inset"></md-divider>
-        </md-list-item>
-
-        <md-subheader>Contacts</md-subheader>
 
         <md-list-item>
           <md-avatar>
@@ -47,30 +34,6 @@
 
           <md-button class="md-icon-button md-list-action">
             <md-icon class="md-primary">chat_bubble</md-icon>
-          </md-button>
-        </md-list-item>
-
-        <md-list-item>
-          <md-avatar>
-            <img src="assets/avatar-2.jpg" alt="People">
-          </md-avatar>
-
-          <span>Alex Nelson</span>
-
-          <md-button class="md-icon-button md-list-action">
-            <md-icon class="md-primary">chat_bubble</md-icon>
-          </md-button>
-        </md-list-item>
-
-        <md-list-item>
-          <md-avatar>
-            <img src="assets/avatar-2.jpg" alt="People">
-          </md-avatar>
-
-          <span>Mary Johnson</span>
-
-          <md-button class="md-icon-button md-list-action">
-            <md-icon>chat_bubble</md-icon>
           </md-button>
         </md-list-item>
       </md-list>

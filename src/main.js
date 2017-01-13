@@ -6,6 +6,13 @@ import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.css'
 import VueRouter from 'vue-router'
 
+import Todos from './components/Todos.vue'
+import Tokens from './components/Tokens.vue'
+
+const router = [
+  routes
+]
+
 Vue.use(VueMaterial)
 Vue.use(VueRouter)
 
