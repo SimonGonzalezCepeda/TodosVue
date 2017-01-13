@@ -42,6 +42,9 @@
   </div>
 </template>
 
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700,400italic">
+<link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
 <script>
 import Hello from './components/Hello'
 
