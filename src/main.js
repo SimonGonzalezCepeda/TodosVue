@@ -5,9 +5,13 @@ import App from './App'
 import VueMaterial from 'vue-material'
 import 'vue-material/dist/vue-material.css'
 import VueRouter from 'vue-router'
+import Axios from 'axios'
 
 import Todos from './components/Todos.vue'
 import Tokens from './components/Tokens.vue'
+
+window.axios = Axios
+Vue.prototype.$http = Axios
 
 const routes = [
   { path: '/todos', component: Todos },
